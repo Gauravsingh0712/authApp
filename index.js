@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-//Loads .env file contents into process.env 
+//Loads .env file contents into process.env by default 
 require("dotenv").config()
 
 const PORT = process.env.PORT || 4000;
